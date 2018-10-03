@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "cpu_metrics": {
+      "type": "metric",
+      "command": "/opt/sensu/embedded/bin/check-cpu.rb",
+	  "handlers": [
+		    "debug",
+	        "mattermost"
+	    ],
+      "subscribers": [
+        "system"
+      ],	  
+      "interval": 60    
+    }
+  }
+}
