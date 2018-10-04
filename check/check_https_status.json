@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "CHECK_NAME": {
+      "command": "/opt/sensu/embedded/bin/check-http.rb -u HOST_URL",
+	  "handlers": [
+		    "debug",
+	        "mattermost"
+	    ],	  
+      "subscribers": [
+        "sites"
+      ],
+      "interval": 60
+    }
+  }
+}
