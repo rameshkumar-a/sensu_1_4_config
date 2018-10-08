@@ -1,7 +1,6 @@
 {
   "checks": {
-    "cpu_metrics": {
-      "type": "metric",
+    "cpu_metrics": {     
       "command": "/opt/sensu/embedded/bin/check-cpu.rb",
 	  "handlers": [
 		    "debug",
