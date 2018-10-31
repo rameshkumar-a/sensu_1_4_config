@@ -1,6 +1,6 @@
 {
   "handlers": {
-    "influx": {
+    "influx-udp": {
       "type": "udp",
       "mutator": "only_check_output",
       "socket": {

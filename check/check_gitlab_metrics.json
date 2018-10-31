@@ -7,7 +7,7 @@
       "interval": 10,
       "handlers": [
 		      "debug",
-	          "influxdb-tcp"
+	          "influx-udp"
 	    ]
     }
   }
