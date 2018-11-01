@@ -1,12 +1,12 @@
 {
   "handlers": {
-    "influx-udp": {
+    "influxdb_udp": {
       "type": "udp",
-      "mutator": "only_check_output",
       "socket": {
-        "host": "influxdb.euyzzd.ericssoncicd.com",
-        "port": 8089
-      }
+        "host": "influxdb",
+        "port": 8090
+      },
+      "mutator": "influxdb_line_protocol"
     }
   }
 }
