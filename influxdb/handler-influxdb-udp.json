@@ -7,7 +7,7 @@
         "port": 8090,
 		"database": "telegraf"
 		"username": "admin",
-        "password": "metrics",
+        "password": "metrics"
       },
       "mutator": "influxdb_line_protocol"
     }
