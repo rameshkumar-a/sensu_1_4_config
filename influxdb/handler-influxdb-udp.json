@@ -4,12 +4,9 @@
       "type": "udp",
       "socket": {
         "host": "influxdb",
-        "port": 8089,
-		"database": "telegraf",
-		"username": "admin",
-        "password": "metrics"
+        "port": 8089
       },
-      "mutator": "influxdb_line_protocol"
+      "mutator": "only_check_output"
     }
   }
 }
