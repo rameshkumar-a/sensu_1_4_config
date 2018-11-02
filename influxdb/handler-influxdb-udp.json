@@ -6,7 +6,7 @@
         "host": "influxdb",
         "port": 8090
       },
-      "mutator": "influxdb_line_protocol"
+      "mutator": "only_check_output"
     }
   }
 }
