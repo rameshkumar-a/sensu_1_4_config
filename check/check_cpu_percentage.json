@@ -1,9 +1,8 @@
 {
   "checks": {
-      "cpu-metrics": {
+      "host-metrics": {
            "command": "/opt/sensu/embedded/bin/agent-check.sh",
-           "handlers": [
-		      "debug",
+           "handlers": [		    
 	          "influxdb-tcp"
 	    ],
 	   "interval": 10,

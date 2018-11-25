@@ -1,6 +1,6 @@
 {
   "checks": {
-    "cpu_metrics": {     
+    "disk_alert_check": {     
       "command": "/opt/sensu/embedded/bin/check-disk-usage.rb",
 	  "handlers": [
 		    "debug",

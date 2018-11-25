@@ -1,6 +1,6 @@
 {
   "checks": {
-    "cpu_metrics": {     
+    "cpu_alert_check": {     
       "command": "/opt/sensu/embedded/bin/check-cpu.rb",
 	  "handlers": [
 		    "debug",
